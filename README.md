@@ -11,7 +11,7 @@ Desenvolvimento de uma loja online para a ByCrib, uma empresa especializada em s
 - [Pedro H. Silva](https://github.com/pedroifc)
 
 **Links do projeto**:
-- [Documentação (esse documento)](https://github.com/ByCrib-TEAM/ByCrib_Front?tab=readme-ov-file#bycrib_front)
+- [Documentação (esse documento)](https://github.com/ByCrib-TEAM/ByCrib-Docs.git)
 - **Backend**: [Repositório](https://github.com/ByCrib-TEAM/ByCrib_Back.git) e [Publicação](#)
 - **Frontend**: [Repositório](https://github.com/ByCrib-TEAM/ByCrib_Front.git) e [Publicação](https://frontbycrib.vercel.app/)
 
