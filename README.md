@@ -12,8 +12,8 @@ Desenvolvimento de uma loja online para a ByCrib, uma empresa especializada em s
 
 **Links do projeto**:
 - [Documentação (esse documento)](https://github.com/ByCrib-TEAM/ByCrib-Docs.git)
-- **Backend**: [Repositório](https://github.com/ByCrib-TEAM/ByCrib_Back.git) e [Publicação](#)
-- **Frontend**: [Repositório](https://github.com/ByCrib-TEAM/ByCrib_Front.git) e [Publicação](https://frontbycrib.vercel.app/)
+- **Backend**: [Repositório](https://github.com/ByCrib-TEAM/ByCrib-Back.git) e [Publicação](#)
+- **Frontend**: [Repositório](https://github.com/ByCrib-TEAM/ByCrib-Front.git) e [Publicação](https://frontbycrib.vercel.app/)
 
 ## 1. Desenvolvimento do Projeto
 
