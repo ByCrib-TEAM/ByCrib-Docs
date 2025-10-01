@@ -164,15 +164,56 @@ O MER é uma representação visual que auxilia no entendimento de como os dados
 - **RF009** – O sistema deve permitir o upload de imagens de produtos.
 - **RF010** – O sistema deve permitir a listagem completa dos produtos com nome, descrição, marca, preço e estoque.
 
+---
+
 # 6. Regras de Negócio (RN)
 
-**Regras de Negócio** definem as condições e limitações dentro das quais o sistema opera. Elas são essenciais para garantir que as operações do sistema sigam as políticas e objetivos da empresa.
-- **RN001** – Somente usuários com perfil de administrador podem cadastrar, editar ou remover produtos.
-- **RN002** – Todo produto deve conter obrigatoriamente um nome, uma descrição, uma marca, um preço e pelo menos uma imagem para ser salvo.
-- **RN003** – O preço dos produtos deve ser maior que zero.
-- **RN004** – O estoque deve ser um valor inteiro igual ou superior a zero.
-- **RN005** – O e-mail informado no cadastro de usuários deve ser único no sistema.
-- **RN006** – Senhas de usuários devem conter no mínimo 6 caracteres.
+As **Regras de Negócio** são diretrizes que definem as condições, restrições e políticas internas do sistema **ByCrib**.  
+Elas garantem que todas as operações estejam alinhadas com os objetivos estratégicos da aplicação e mantenham a consistência dos dados, segurança das operações e conformidade com os processos da empresa.
+
+As regras de negócio não descrevem funcionalidades diretas, mas sim as **condições obrigatórias** que controlam como o sistema pode ser utilizado.  
+
+## 6.1 Importância das Regras de Negócio  
+
+As regras de negócio são essenciais porque:  
+
+1. **Definem limites operacionais:** garantem que o sistema seja utilizado de acordo com critérios definidos.  
+2. **Preservam consistência e segurança:** evitam falhas, fraudes ou usos incorretos.  
+3. **Asseguram conformidade legal:** garantem que o sistema respeite normas, como a **LGPD**.  
+4. **Facilitam manutenção:** regras bem definidas ajudam a expandir o sistema sem comprometer a lógica central.  
+
+## 6.2 Organização das Regras de Negócio  
+
+Cada regra de negócio é identificada com o prefixo **RN** e numerada sequencialmente.  
+A estrutura de definição segue este padrão:  
+
+- **RNxxx – Nome da regra:** descrição clara e objetiva da condição.  
+
+## 6.3 Regras de Negócio do ByCrib  
+
+### **Gerenciamento de Produtos**
+- **RN001 – Controle de permissões:** somente usuários com perfil **administrador** podem cadastrar, editar ou remover produtos.  
+- **RN002 – Dados obrigatórios de produtos:** todo produto deve conter obrigatoriamente **nome, descrição, marca, preço e pelo menos uma imagem** para ser salvo.  
+- **RN003 – Validação de preço:** o preço dos produtos deve ser **maior que zero**.  
+- **RN004 – Controle de estoque:** o estoque deve ser um valor **inteiro, igual ou superior a zero**.  
+
+### **Gerenciamento de Usuários**
+- **RN005 – E-mail único:** o e-mail informado no cadastro de usuários deve ser **único** no sistema (não pode haver duplicidade).  
+- **RN006 – Segurança de senhas:** senhas de usuários devem conter **no mínimo 6 caracteres**.  
+
+## 6.4 Exemplos de Aplicação das Regras  
+
+- **Exemplo 1:** Um usuário comum tenta cadastrar um produto → operação é **bloqueada** (violação da RN001).  
+- **Exemplo 2:** Cadastro de produto sem imagem → operação é **recusada** (violação da RN002).  
+- **Exemplo 3:** Tentativa de salvar produto com preço negativo → sistema impede ação (violação da RN003).  
+- **Exemplo 4:** Cadastro de usuário com e-mail já existente → bloqueio automático (violação da RN005).  
+
+## 6.5 Conclusão  
+
+As regras de negócio do **ByCrib** são a espinha dorsal do sistema.  
+Elas não apenas organizam a forma como os dados são inseridos e tratados, mas também **protegem a integridade da plataforma**, assegurando que todos os processos sigam um padrão consistente, seguro e confiável.  
+
+---
 
 # 7. Requisitos Não Funcionais (RNF)
 
