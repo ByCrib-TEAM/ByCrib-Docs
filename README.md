@@ -2,7 +2,7 @@
 
 Desenvolvimento de uma loja online para a ByCrib, uma empresa especializada em streetwear e sneakers, oferecendo produtos de diversas marcas nacionais e internacionais. O projeto visa expandir a presença digital da marca, proporcionando uma experiência de compra mais prática e acessível para seus clientes.
 
-**Professor**: [Marco André Mendes](https://github.com/marcoandre)
+**Professor**: [Marco André Mendes](https://github.com/marrcandre)
 
 **Equipe**:
 - [Caetano P. Freitas](https://github.com/caetanopf)
