@@ -149,20 +149,86 @@ O MER é uma representação visual que auxilia no entendimento de como os dados
 - **Regras de Negócio**: A listagem dos produtos deve ser acessível tanto por administradores quanto por clientes.
 - **Exemplo Prático**: O sistema exibe uma lista de produtos na interface do cliente, com todas as informações essenciais, como nome e preço, e com um botão de "Comprar" para cada item.
 
-# 5. Requisitos Funcionais
+---
 
-**Requisitos Funcionais** descrevem o que o sistema deve ser capaz de fazer, garantindo que todas as funcionalidades estejam implementadas. Eles são a base para o desenvolvimento do sistema e ajudam na validação do mesmo.
+# 5. Requisitos Funcionais (RF)
 
-- **RF001** – O sistema deve permitir o cadastro de novos produtos no catálogo.
-- **RF002** – O sistema deve permitir a edição dos dados dos produtos cadastrados.
-- **RF003** – O sistema deve permitir a exclusão de produtos cadastrados.
-- **RF004** – O sistema deve permitir a visualização pública do catálogo de produtos.
-- **RF005** – O sistema deve permitir o cadastro de novos usuários (clientes e administradores).
-- **RF006** – O sistema deve permitir o login de usuários com autenticação por e-mail e senha.
-- **RF007** – O sistema deve permitir a distinção entre usuários, clientes e administradores.
-- **RF008** – O sistema deve disponibilizar uma área administrativa restrita para gestão de produtos.
-- **RF009** – O sistema deve permitir o upload de imagens de produtos.
-- **RF010** – O sistema deve permitir a listagem completa dos produtos com nome, descrição, marca, preço e estoque.
+Os **Requisitos Funcionais** do **ByCrib** estabelecem de forma objetiva as funcionalidades que o sistema deve disponibilizar.  
+Eles especificam as operações que precisam ser implementadas para atender às necessidades de clientes, administradores e visitantes, servindo como referência para o desenvolvimento e a validação do projeto.
+
+## 5.1 Definição
+
+Um requisito funcional corresponde a uma funcionalidade que o sistema deve executar para cumprir seus objetivos.  
+Ele contempla duas dimensões principais:
+
+- **Função:** ação que o sistema disponibiliza.  
+- **Comportamento:** maneira como a ação é realizada e entregue ao usuário.  
+
+## 5.2 Características dos requisitos
+
+Cada requisito deve ser redigido de forma que seja:  
+- **Específico:** descrevendo claramente a funcionalidade.  
+- **Mensurável:** capaz de ser verificado em testes.  
+- **Alcançável:** compatível com os recursos do projeto.  
+- **Relevante:** alinhado aos objetivos do sistema.  
+- **Rastreável:** vinculado às entregas e funcionalidades previstas.  
+
+## 5.3 Organização
+
+Para maior clareza, os requisitos foram estruturados em três grupos:  
+
+- **Entradas:** informações fornecidas pelos usuários.  
+- **Processos:** operações e tratamentos realizados pelo sistema.  
+- **Saídas:** informações disponibilizadas como resultado.  
+
+## 5.4 Requisitos Funcionais do ByCrib
+
+### Entradas
+- **RF001 – Cadastro de produtos:** o sistema deve permitir o cadastro de produtos no catálogo.  
+  - **Dados:** nome, descrição, marca, preço, imagem, estoque.  
+  - **Usuários:** administradores.  
+
+- **RF005 – Cadastro de usuários:** o sistema deve permitir o registro de novos clientes e administradores.  
+  - **Dados:** nome, e-mail, senha, perfil de acesso.  
+  - **Usuários:** todos.  
+
+- **RF009 – Upload de imagens:** o sistema deve permitir o envio de imagens vinculadas aos produtos.  
+  - **Dados:** arquivos em formato .jpg ou .png.  
+  - **Usuários:** administradores.  
+
+### Processos
+- **RF002 – Edição de produtos:** o sistema deve permitir alterar informações de produtos cadastrados.  
+  - **Usuários:** administradores.  
+
+- **RF003 – Exclusão de produtos:** o sistema deve permitir a exclusão de produtos do catálogo.  
+  - **Usuários:** administradores.  
+
+- **RF006 – Autenticação de usuários:** o sistema deve permitir login com e-mail e senha válidos.  
+  - **Usuários:** todos.  
+
+- **RF007 – Perfis de acesso:** o sistema deve distinguir permissões entre clientes e administradores.  
+  - **Usuários:** todos.  
+
+- **RF008 – Área administrativa:** o sistema deve disponibilizar uma interface restrita para gerenciamento de produtos.  
+  - **Usuários:** administradores.  
+
+### Saídas
+- **RF004 – Catálogo público:** o sistema deve disponibilizar uma vitrine de produtos acessível sem necessidade de login.  
+  - **Usuários:** clientes e visitantes.  
+
+- **RF010 – Listagem de produtos:** o sistema deve apresentar listagens completas, incluindo nome, descrição, marca, preço e estoque.  
+  - **Usuários:** clientes e administradores.  
+
+## 5.5 Exemplos práticos
+- Administrador registra um novo produto com imagem → **RF001**.  
+- Cliente acessa sua conta com login e senha → **RF006**.  
+- Visitante navega pelo catálogo sem autenticação → **RF004**.  
+- Administrador ajusta o estoque pelo painel → **RF002** e **RF008**.  
+
+## 5.6 Conclusão
+
+Os requisitos funcionais do **ByCrib** organizam e formalizam as principais interações previstas no sistema.  
+Eles abrangem desde o **cadastro e manipulação de dados** até a **exibição pública do catálogo**, garantindo que o projeto seja desenvolvido de forma coerente, validável e alinhada aos objetivos de clientes, administradores e visitantes.  
 
 ---
 
